@@ -1,8 +1,8 @@
 import { LEVEL, OBJECT_TYPE } from './setup.js';
-import GameBoard from './GameBoard';
-import Pacman from './Pacman';
-import Ghost from './Ghost';
-import { randomMovement } from './ghostMoves';
+import GameBoard from './GameBoard.js';
+import Pacman from './Pacman.js';
+import Ghost from './Ghost.js';
+import { randomMovement } from './ghostMoves.js';
 import soundDot from './sounds/munch.wav';
 import soundPill from './sounds/pill.wav';
 import soundGameStart from './sounds/game_start.wav';
