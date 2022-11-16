@@ -1,4 +1,4 @@
-import { DIRECTIONS, OBJECT_TYPE } from './setup';
+import { DIRECTIONS, OBJECT_TYPE } from './setup.js';
 
 // Primitive random movement.
 export function randomMovement(position, direction, objectExist) {
