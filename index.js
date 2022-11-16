@@ -1,4 +1,4 @@
-import { LEVEL, OBJECT_TYPE } from '/setup';
+import { LEVEL, OBJECT_TYPE } from '/Pac-Man-JavaScript/setup';
 import GameBoard from './GameBoard';
 import Pacman from './Pacman';
 import Ghost from './Ghost';
