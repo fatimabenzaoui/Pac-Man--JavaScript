@@ -1,13 +1,14 @@
-import { LEVEL, OBJECT_TYPE } from './setup.js';
-import GameBoard from './GameBoard.js';
-import Pacman from './Pacman.js';
-import Ghost from './Ghost.js';
-import { randomMovement } from './ghostMoves.js';
-import soundDot from './sounds/munch.wav';
-import soundPill from './sounds/pill.wav';
-import soundGameStart from './sounds/game_start.wav';
-import soundGameOver from './sounds/death.wav';
-import soundGhost from './sounds/eat_ghost.wav';
+// import { LEVEL, OBJECT_TYPE } from './setup.js';
+// import GameBoard from './GameBoard.js';
+// import Pacman from './Pacman.js';
+// import Ghost from './Ghost.js';
+// import { randomMovement } from './ghostMoves.js';
+// import soundDot from './sounds/munch.wav';
+// import soundPill from './sounds/pill.wav';
+// import soundGameStart from './sounds/game_start.wav';
+// import soundGameOver from './sounds/death.wav';
+// import soundGhost from './sounds/eat_ghost.wav';
+const LEVEL = require('setup');
 
 const gameGrid = document.querySelector('#game');
 const scoreTable = document.querySelector('#score');
